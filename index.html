@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+<body>
+    <!-- Welcome Page -->
+    <!-- <div id="welcome-scrn" class="screen">
+        <h1>Things you need to know before attending this Quiz</h1>
+        <div class="infolist">
+            <div class="infos">1. You will have only 10 seconds for each question</div>
+            <div class="infos">2. Once you select your answer, it can't be undone</div>
+            <div class="infos">3. You can't select any option when timer goes 0 seconds </div>
+            <div class="infos">4. Once you have started, you can't pause or exit from the Quiz</div>
+            <div class="infos">5. You will get scores on the basis of correct answers</div>
+            <div class="infos">6. Text selection is disabled</div>
+        </div>
+        <p>All the Best!</p> -->
+
+    <!-- Start Button  -->
+         <!-- <button id="startbtn" class="btn">Start Quiz</button>
+    </div> -->
+
+    <!-- Quiz Title Area  -->
+    <div  id="quiz-scrn" class="title">
+        <h1 class="prevent-select">Quiz Questions</h1>
+            <!-- timer -->
+                <div class="timer-div">
+                    <i class="fa-solid fa-hourglass-end"></i>
+                    <span id="timer" class="time-left">10s</span>
+                </div>
+
+            <!-- Quiz question -->
+        <div class="quiz">
+            <h2 id="question" class="prevent-select">Question goes here</h2>
+
+            <!-- Answer Choices -->
+            <div id="answer-buttons" class="prevent-select">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            
+            <!-- Next Button  -->
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
